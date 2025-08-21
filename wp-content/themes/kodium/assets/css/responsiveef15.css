@@ -1,0 +1,305 @@
+@media (max-width: 1199px) {
+    .theme-boxed, .theme-boxed.header-small .header-inner{
+        width:990px;
+        margin: 0 auto;
+    }
+    nav.menu-container>*:not(.kodium-menu),
+    nav.menu-container .kodium-menu>*:not(.kodium-logo):not(.sf-menu){
+        display: none;
+    }
+    .grid-blog article.post .entry-post{
+        max-width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .grid-blog article.post.col-md-4{
+        width: 50%;
+    }
+    .kodium-fixed-gallery{
+        display: none;
+    }
+    #scrollUp{
+        right: 80px;
+    }
+}
+@media (max-width: 1199px) and (min-width: 992px){
+    .kodium-container > .row > .col-md-1{
+        display: none;
+    }
+    .kodium-container > .row > .col-md-1 + .with-sidebar.col-md-7{
+        width: 66.66666667%;
+    }
+    .kodium-container > .row > .col-md-1 + .with-sidebar.col-md-7 + .kodium-sidebar.col-md-3{
+        width: 33.33333333%;
+    }
+    .kodium-sidebar:last-child > section{
+        max-width: 270px;
+    }
+    .header-left-side .container{width: 880px;}
+}
+@media (max-width: 991px) {
+    .theme-boxed, .theme-boxed.header-small .header-inner{
+        width:100%;
+    }
+    /* Grid CSS */
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11,.col-md-12{
+        float: left;
+        margin-bottom: 10px;
+    }
+    /* Bootstrap column */
+    .kodium-footer [class*="col-md"]:not(:last-child){
+        text-align: center !important;
+        margin-bottom: 60px;
+    }
+    .portfolio-meta .meta-item{
+        margin: 0;
+    }
+    [class*="col-md"],
+    .kodium-thumbnail img,
+    .kodium-partner.column-4 .partner-item{
+        width: 100%;
+    }
+    body.header-normal header [data-mbtn="menu"]{
+        display: inline-block;
+    }
+    body.header-normal .header-inner>div>.row>.kodium-header-middle{
+        display: none;
+    }
+    article.single-portfolio > .row > .col-md-4{
+        width: 100%;
+    }
+    .vc_row-fluid[data-vc-full-width="true"][data-vc-stretch-content="true"] .vc_column-inner .wpb_wrapper > .kodium-product{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .kodium-team [class*="vc_col-sm"],
+    .columns-4 ul.products li.product{
+        width: 50%;
+        float: left;
+        margin-bottom: 40px;
+    }
+    .kodium-sidebar > div:before,
+    .kodium-sidebar > div:after{
+        display: none;
+    }
+    .kodium-container .kodium-sidebar > div{
+        padding: 0;
+        padding-top: 70px;
+        border-top: 1px solid #e6e6e6;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .kodium-sidebar aside.widget{
+        width: 300px;
+    }
+    body .kodium-sidebar,
+    body .content-area{
+        margin-bottom: 0;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-12 > .portfolio-meta .meta-item,
+    .nextprev-postlink > .col-md-6,
+    .entry-footer > .row > .col-md-6{
+        width: 50%;
+        margin-bottom: 0;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .kodium-slider .swiper-slide > div{
+        margin-left: 40px;
+    }
+    .kodium-middle>*{
+        width: 100%;
+    }
+    .theme-boxed {
+        width:auto;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: none;
+    }
+    .nextprev-postlink [class*="col-md"]{
+        width: 50%;
+        margin: 0;
+    }
+    .kodium-element.kodium-pricing .pricing-column{
+        width: 50% !important;
+        margin-bottom: 35px;
+    }
+    .kodium-element.kodium-pricing .pricing-column:last-child{
+        margin-bottom: 0;
+    }
+    .col-md-6 > .entry-share{
+        text-align: left;
+    }
+    .kodium-testimonial.column-2>.testimonial-item{
+        width: 100%;
+    }
+    .gallery-isotope.portfolio_m2 .kodium-gallery-item{
+        width: 49.9%;
+    }
+    article.portfolio > .project-link.btn:last-child{
+        margin: 0 auto 70px;
+    }
+    .grid-blog article.post.col-md-4{
+        width: 100%;
+    }
+    .single-portfolio-navigation{
+        padding: 33px 0;
+    }
+    .kodium-element.kodium-milestones > div:not(:last-child){
+        border-right: 0;
+    }
+    .kodium-element.kodium-milestones > div:not(:last-child){
+        border-bottom: 1px solid rgba(41,51,46,.2);
+    }
+    .kodium-element.kodium-milestones.dark > div:not(:last-child){
+        border-bottom: 1px solid rgba(255,255,255,.2);
+    }
+    .kodium-element.kodium-team > .column-5{
+        width: 50%;
+    }
+    .kodium-element.kodium-social a{
+        padding: 30px 0;
+    }
+    .kodium-subscribe .mc4wp-form input[type='email']{
+        width: 320px;
+    }
+    .kodium-menu{
+        display: none;
+    }
+    .kodium-mobile-menu{
+        display: block;
+    }
+    .show-mobile-menu>.tw-mobile-menu {
+        right: auto;
+        left: 0;
+    }
+    .kodium-menu-container > div{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .kodium-logo{
+        margin: 0;
+    }
+    .search-box .search-form input{
+        width: 100%;
+    }
+    #scrollUp{
+        right: 40px;
+        width: 32px;
+        height: 32px;
+        font-size: 10px;
+    }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .sf-mobile-menu .menu-item-has-children > a:before{
+        top: 14px;
+    }
+    body .kodium-footer > .container > .row{
+        display: block;
+    }
+    .gallery-isotope.portfolio_m2 .kodium-gallery-item,
+    .project-link.btn,
+    .portfolio-thumb img{
+        width: 100%;
+    }
+    .kodium-testimonial.column-2>.testimonial-item{
+        width: 100%;
+        padding: 0 !important;
+    }
+    .kodium-element.kodium-pricing .pricing-column{
+        width: 100% !important;
+        margin-bottom: 35px;
+    }
+    .wpcf7 textarea,
+    .wpcf7 input[type="text"], .wpcf7 input[type="password"], .wpcf7 input[type="email"]{
+        position: relative;
+        min-width: 200px;
+        margin-right: 0;
+        top: auto;
+    }
+    .theme-boxed{
+        width:auto;
+    }
+    .nextprev-postlink{
+        display: none;
+    }
+    .kodium-title-content, .kodium-breadcrumbs,
+    body.header-left-side,
+    .header-left-side .vc_row-fluid[data-vc-full-width],
+    .header-left-side .fullwidthbanner-container{
+        padding: 0 !important;
+    }
+    body.header-left-side .kodium-header{
+        border-right: none;
+        position: relative;
+        width: 100%;
+        height: 99px;
+    }
+    body.header-left-side .header-inner>div>.row, body.header-left-side .header-inner>div>.row>div{
+        flex-direction: initial;
+        justify-content: space-between;
+        position: relative;
+        top: 0;
+    }
+    body.header-left-side .header-inner>div>.row>div:nth-child(3){
+        justify-content: flex-end;
+    }
+    .kodium-heading>.heading-title,
+    .kodium-heading>.heading-title:after{
+        right: 15px;
+    }
+    .portfolio-meta .meta-item{
+        margin: 0;
+    }
+    .gallery-isotope.portfolio_m2 .kodium-gallery-item{
+        width: 100%;
+    }
+    .kodium-subscribe .mc4wp-form input[type='email']{
+        width: 240px;
+    }
+    form.searchform > .input{
+        text-align: center;
+    }
+    .search-box .search-form .btn{
+        position: static;
+        margin-top: 20px;
+    }
+    .search-box .search-form form{
+        margin-top: 40px;
+    }
+    .footer-socials .social-icons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-socials a.footer-contact{
+        display: block;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .kodium-slider-swiper > .container{
+        display: none;
+    }
+    .kodium-element.kodium-portfolio .swiper-wrapper .swiper-slide:first-child{
+        display: none;
+    }
+}
+
+/* Table Styling on Mobile */
+
+@media screen and (max-width: 600px) {
+    table {
+        width:100%;    
+        border-top: none;
+    }
+    .entry-content blockquote{
+        margin-left: 0;
+    }
+}
